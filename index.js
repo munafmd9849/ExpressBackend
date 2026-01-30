@@ -11,7 +11,7 @@ app.get("/youtube",(req,res)=>{
     res.send("<h1>hello world")
 })
 app.get("/shashi", (req,res)=>{
-    res.send("<h1> shashi is a good")
+    res.send("<h1> shashi is a good human being")
 })
 
 app.listen(process.env.PORT, () => {
