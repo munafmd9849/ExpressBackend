@@ -7,8 +7,11 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get("/youtube",(req,re)=>{
-    re.send("<h1>hello world")
+app.get("/youtube",(req,res)=>{
+    res.send("<h1>hello world")
+})
+app.get("/shashi", (req,res)=>{
+    res.send("<h1> shashi is a good")
 })
 
 app.listen(process.env.PORT, () => {
